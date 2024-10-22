@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Cambié el idioma a español -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign In - inicio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<header>
+    <section class="titulo">
+        <h1>Biblioteca Digital</h1>
+    </section>
+     </header>
+<body>
+
+    <h2>Registrate</h2>
+    <form action="sing.php" method="post">
+        Ingrese Nombre:
+        <input type="text" name="nombre" required><br>
+        Ingrese su Apellido:
+        <input type="text" name="apellido" required><br> 
+        Ingrese su Correo:
+        <input type="email" name="correo" required><br>
+        Ingresa Contraseña: 
+        <input type="password" name="contraseña" required><br>
+        Ingresa Fecha de ingreso: 
+        <input type="datetime-local" name="fecha_registro" required><br> 
+        
+        <input type="submit" value="Crear usuario">
+        <button onclick="window.location.href='inicio.html'">atras</button>   
+
+    </form>
+</body>
+</html>
